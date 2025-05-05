@@ -1,4 +1,4 @@
-FROM node:16.13.1-alpine
+FROM --platform=arm node:12.16.3-alpine
 
 # Create app directory
 WORKDIR /usr/src/app
