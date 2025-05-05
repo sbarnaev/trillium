@@ -8,7 +8,7 @@ services:
     environment:
       - TRILIUM_DATA_DIR=/data
     ports:
-      - "8080:8080"
+      - "8082:8082"
     volumes:
       - trilium:/data
 
